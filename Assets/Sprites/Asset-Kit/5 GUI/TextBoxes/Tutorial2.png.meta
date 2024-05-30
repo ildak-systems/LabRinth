@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: 88f2e0187d944491f8d48e68e471eef6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5545074057135662542
+    second: Tutorial2_0
+  - first:
+      213: -5545876583661295738
+    second: Tutorial2_1
+  - first:
+      213: 9025664918251629398
+    second: Tutorial2_2
+  - first:
+      213: -2759719706851415306
+    second: Tutorial2_3
+  - first:
+      213: 6702566589413502971
+    second: Tutorial2_4
+  - first:
+      213: -4144012628246302552
+    second: Tutorial2_5
+  - first:
+      213: -8675047728097716404
+    second: Tutorial2_6
+  - first:
+      213: -6021164306795263410
+    second: Tutorial2_7
+  - first:
+      213: 4194220392589908817
+    second: Tutorial2_8
+  - first:
+      213: 5478976580574364621
+    second: Tutorial2_9
+  - first:
+      213: -7667445831641977960
+    second: Tutorial2_10
+  - first:
+      213: -2818606697462424146
+    second: Tutorial2_11
+  - first:
+      213: -8847745792289176033
+    second: Tutorial2_12
+  - first:
+      213: 8142564627402154323
+    second: Tutorial2_13
+  - first:
+      213: -9178112558238544519
+    second: Tutorial2_14
+  - first:
+      213: -3295346353930753130
+    second: Tutorial2_15
+  - first:
+      213: -5108379468267016291
+    second: Tutorial2_16
+  - first:
+      213: -1416686171361106788
+    second: Tutorial2_17
+  - first:
+      213: -8317395757457064720
+    second: Tutorial2_18
+  - first:
+      213: -2902046527912753647
+    second: Tutorial2_19
+  - first:
+      213: 4219426735223835541
+    second: Tutorial2_20
+  - first:
+      213: 2903216684743241071
+    second: Tutorial2_21
+  - first:
+      213: -7681612052063617197
+    second: Tutorial2_22
+  - first:
+      213: -2929528359778913666
+    second: Tutorial2_23
+  - first:
+      213: -5759011193658502740
+    second: Tutorial2_24
+  - first:
+      213: -7691547593240061756
+    second: Tutorial2_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tutorial2_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 1931
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec52ec4d97f04fc40800000000000000
+      internalID: 5545074057135662542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tutorial2_0: 5545074057135662542
+      Tutorial2_1: -5545876583661295738
+      Tutorial2_10: -7667445831641977960
+      Tutorial2_11: -2818606697462424146
+      Tutorial2_12: -8847745792289176033
+      Tutorial2_13: 8142564627402154323
+      Tutorial2_14: -9178112558238544519
+      Tutorial2_15: -3295346353930753130
+      Tutorial2_16: -5108379468267016291
+      Tutorial2_17: -1416686171361106788
+      Tutorial2_18: -8317395757457064720
+      Tutorial2_19: -2902046527912753647
+      Tutorial2_2: 9025664918251629398
+      Tutorial2_20: 4219426735223835541
+      Tutorial2_21: 2903216684743241071
+      Tutorial2_22: -7681612052063617197
+      Tutorial2_23: -2929528359778913666
+      Tutorial2_24: -5759011193658502740
+      Tutorial2_25: -7691547593240061756
+      Tutorial2_3: -2759719706851415306
+      Tutorial2_4: 6702566589413502971
+      Tutorial2_5: -4144012628246302552
+      Tutorial2_6: -8675047728097716404
+      Tutorial2_7: -6021164306795263410
+      Tutorial2_8: 4194220392589908817
+      Tutorial2_9: 5478976580574364621
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

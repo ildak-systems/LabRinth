@@ -14,7 +14,7 @@ public class levelOneController : MonoBehaviour
     private bool gotKey3 = false;
 
 
-    private bool levelCleared = false;
+    public static bool levelCleared = false;
 
     // Level specific game object prefabs
     public GameObject easyEnemyPrefab;

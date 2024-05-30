@@ -1,6 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
-using System.Numerics;
 using UnityEngine;
 
 public class levelOneController : MonoBehaviour
@@ -40,6 +38,7 @@ public class levelOneController : MonoBehaviour
     {
         // Canvas
         canvasRect = canvas.GetComponent<RectTransform>();
+
         Debug.Log(canvasRect.rect.width);
         Debug.Log(canvasRect.rect.height);
         // Camera

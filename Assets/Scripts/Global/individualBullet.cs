@@ -22,9 +22,8 @@ public class individualBullet : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("hit player, game over");
-            SceneManager.LoadSceneAsync("gameOverScene");
-            return;
+            SceneManager.LoadScene("gameOverScene");
         }
+        return;
     }
 }

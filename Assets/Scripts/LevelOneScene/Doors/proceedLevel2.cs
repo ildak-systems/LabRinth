@@ -35,6 +35,7 @@ public class proceedLevel2 : MonoBehaviour
             if (levelClearedSignal && isTouching)
             {
                 SceneManager.LoadScene("levelOneScene");
+                 // or any other current scene
                 // play stair noises? 
                 return;
             }

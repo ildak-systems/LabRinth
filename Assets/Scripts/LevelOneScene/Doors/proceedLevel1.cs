@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class proceedLevel1 : MonoBehaviour
 {
+    public GameObject Player;
     private bool isTouching = false;
 
     public GameObject doorEnterTextBox;
@@ -20,7 +21,7 @@ public class proceedLevel1 : MonoBehaviour
     {
         if (textBoxOnScreen)
         {
-            doorEnterTextBox.transform.position = levelOneController.player.transform.position + textBoxOffset;
+            doorEnterTextBox.transform.position = Player.transform.position + textBoxOffset;
             // make it appear it for 3 seconds, then deactivate
         }
 
@@ -29,7 +30,7 @@ public class proceedLevel1 : MonoBehaviour
             Debug.Log("E is pressed");
             if (isTouching)
             {
-                doorEnterTextBox.transform.position = levelOneController.player.transform.position + textBoxOffset;
+                doorEnterTextBox.transform.position = Player.transform.position + textBoxOffset;
                 doorEnterTextBox.SetActive(true);
                 textBoxOnScreen = true;
                 StartCoroutine(DeactivateAfterDelay(3f));

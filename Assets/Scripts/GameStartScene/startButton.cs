@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class startButton : MonoBehaviour
 {
+    public GameObject backgroundMusic;
     bool gameStart = false;
     public GameObject fadeOut;
     SpriteRenderer spriteRenderer;
@@ -17,7 +18,7 @@ public class startButton : MonoBehaviour
     {
         fadeOut.SetActive(false);
         spriteRenderer = GetComponent<SpriteRenderer>();
-        audioSource = GetComponent<AudioSource>();
+        audioSource = backgroundMusic.GetComponent<AudioSource>();
         origColor = spriteRenderer.color;
     }
 
@@ -34,7 +35,6 @@ public class startButton : MonoBehaviour
 
             if (audioSource.volume == 0)
             {
-                Debug.Log("transition scene loading!");
                 // Init branch
                 SceneManager.LoadScene("transitionScene");
                 return;

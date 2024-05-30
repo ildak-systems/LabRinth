@@ -23,12 +23,23 @@ public class enemyMechanicEasy : MonoBehaviour
     void Awake()
     {
         collider2D = GetComponent<BoxCollider2D>();
+        collider2D.enabled = false;
         StartCoroutine(flipEnemyAction(flipIntervalSec));
     }
 
     void Update()
     {
-        checkCollider();
+        if(isEnemyInFrame())
+        {
+            collider2D.enabled = true;
+            checkCollider();
+        }
+        else
+        {
+            collider2D.enabled = false;
+        }
+
+        
         if (bulletShot)
         {
             if (transform.localScale.x > 0)
@@ -40,6 +51,18 @@ public class enemyMechanicEasy : MonoBehaviour
                 bullet.transform.Translate(Vector2.left * bulletSpeed * Time.deltaTime);
             }
         }
+    }
+
+    bool isEnemyInFrame()
+    {
+         var planes = GeometryUtility.CalculateFrustumPlanes(Camera.main);
+        var point = this.transform.position;
+        foreach (var plane in planes)
+        {
+            if (plane.GetDistanceToPoint(point) < 0)
+                return false;
+        }
+        return true;
     }
 
     void checkCollider()
@@ -64,8 +87,8 @@ public class enemyMechanicEasy : MonoBehaviour
                     Debug.Log("game Over");
 
                     // Freeze player control
-                    Destroy(player.GetComponent<PlayerControl>());
-                    Destroy(player.GetComponent<Rigidbody2D>());
+                    //DestroyImmediate(player.GetComponent<PlayerControl>(), true);
+                    //DestroyImmediate(player.GetComponent<Rigidbody2D>(), true);
 
                     // Play game over animation
                     bullet = Instantiate(bulletPrefab, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);

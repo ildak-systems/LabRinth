@@ -12,6 +12,7 @@ public class levelOneController : MonoBehaviour
     public static bool levelCleared = false;
 
     // Level specific game object prefabs
+    public GameObject playerObject;
     public GameObject easyEnemyPrefab;
     public GameObject trophyUIPrefab;
     private GameObject trophyUI1;
@@ -24,8 +25,6 @@ public class levelOneController : MonoBehaviour
     private GameObject key1;
     private GameObject key2;
     private GameObject key3;
-    public GameObject playerPrefab;
-    public static GameObject player;
 
     public Camera MainCamera;
     public UnityEngine.Vector3 cameraOffset = new UnityEngine.Vector3 (1, 1, -10);
@@ -43,12 +42,6 @@ public class levelOneController : MonoBehaviour
         Debug.Log(canvasRect.rect.height);
         // Camera
         MainCamera = Camera.main;
-
-        // Player
-        player = Instantiate(playerPrefab, new UnityEngine.Vector3(-3.929f, -3.578f, -0.2f), UnityEngine.Quaternion.identity);
-
-        // Enemies
-        GameObject easyEnemy = Instantiate(easyEnemyPrefab, new UnityEngine.Vector3(5.54f, -3.57f, -0.2f), UnityEngine.Quaternion.identity);
 
         // keys
         key1 = Instantiate(keyPrefab, new UnityEngine.Vector3(3.291049f, -2.781418f, -0.423f), UnityEngine.Quaternion.identity);
@@ -72,7 +65,7 @@ public class levelOneController : MonoBehaviour
     void LateUpdate()
     {
         // Follow player
-        MainCamera.transform.position = player.transform.position + cameraOffset;
+        MainCamera.transform.position = playerObject.transform.position + cameraOffset;
 
         // re-set UI location by camera position
     }

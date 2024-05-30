@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: -5052463321164900229}
   - component: {fileID: -5471771439513718425}
   - component: {fileID: 1825326117205560183}
-  - component: {fileID: 6420885225423018765}
   m_Layer: 0
   m_Name: Enemy-Easy
   m_TagString: Untagged
@@ -125,7 +124,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 4.45, y: -0.068683}
+  m_Offset: {x: -0.016413927, y: 0.05054584}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -135,7 +134,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 9.24, y: 0.202634}
+  m_Size: {x: 0.30727232, y: 0.2741881}
   m_EdgeRadius: 0
 --- !u!95 &-5052463321164900229
 Animator:
@@ -198,16 +197,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b78eccafee5769f4fb9299e3a367342a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletSpeed: 5
+  player: {fileID: 3208391045770096536, guid: ef368ccf980b641faa41ac79af9436da, type: 3}
   bulletPrefab: {fileID: 1532605446471792815, guid: 6b3daff48b3348e48bdf085099d01d11, type: 3}
---- !u!114 &6420885225423018765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3330438525478709569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4949018f3cda8e34f9492ff6e588b6bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

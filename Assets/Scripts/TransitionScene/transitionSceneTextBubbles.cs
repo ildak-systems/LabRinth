@@ -4,7 +4,6 @@ using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
 using UnityEngine;
-using UnityEditor.SceneManagement;
 
 public class transitionSceneTextBubbles : MonoBehaviour
 {

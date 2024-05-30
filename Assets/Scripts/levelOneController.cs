@@ -11,21 +11,24 @@ public class levelOneController : MonoBehaviour
     public GameObject easyEnemyPrefab;
     public GameObject trophyUIPrefab;
     public GameObject keyPrefab;
+    public GameObject playerPrefab;
 
     void Start()
     {
+        // Player
+        GameObject player = Instantiate(playerPrefab, new UnityEngine.Vector3(-3.929f, -3.578f, -0.2f), UnityEngine.Quaternion.identity);
         // Enemies
-        GameObject easyEnemy = Instantiate(easyEnemyPrefab, new UnityEngine.Vector3(5.54f, -3.57f, -0.2f), UnityEngine.Quaternion.identity);
+        //GameObject easyEnemy = Instantiate(easyEnemyPrefab, new UnityEngine.Vector3(5.54f, -3.57f, -0.2f), UnityEngine.Quaternion.identity);
 
         // keys
-        GameObject key1 = Instantiate(keyPrefab, new UnityEngine.Vector3(0,0,0), UnityEngine.Quaternion.identity);
-        GameObject key2 = Instantiate(keyPrefab, new UnityEngine.Vector3(0,0,0), UnityEngine.Quaternion.identity);
-        GameObject key3 = Instantiate(keyPrefab, new UnityEngine.Vector3(0,0,0), UnityEngine.Quaternion.identity);
+        ////GameObject key1 = Instantiate(keyPrefab, new UnityEngine.Vector3(0,0,0), UnityEngine.Quaternion.identity);
+        //GameObject key2 = Instantiate(keyPrefab, new UnityEngine.Vector3(0,0,0), UnityEngine.Quaternion.identity);
+        //GameObject key3 = Instantiate(keyPrefab, new UnityEngine.Vector3(0,0,0), UnityEngine.Quaternion.identity);
 
         // UI for keys
-        GameObject trophyUI1 = Instantiate(trophyUIPrefab, new UnityEngine.Vector3(0,0,0), UnityEngine.Quaternion.identity);
-        GameObject trophyUI2 = Instantiate(trophyUIPrefab, new UnityEngine.Vector3(0,0,0), UnityEngine.Quaternion.identity);
-        GameObject trophyUI3 = Instantiate(trophyUIPrefab, new UnityEngine.Vector3(0,0,0), UnityEngine.Quaternion.identity);
+        //GameObject trophyUI1 = Instantiate(trophyUIPrefab, new UnityEngine.Vector3(0,0,0), UnityEngine.Quaternion.identity);
+        //GameObject trophyUI2 = Instantiate(trophyUIPrefab, new UnityEngine.Vector3(0,0,0), UnityEngine.Quaternion.identity);
+        //GameObject trophyUI3 = Instantiate(trophyUIPrefab, new UnityEngine.Vector3(0,0,0), UnityEngine.Quaternion.identity);
     }
 
     void Update()

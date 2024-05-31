@@ -124,6 +124,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34e1dda72582a4a7a8caa3de383ac5ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletSpeed: 5
+  player: {fileID: 3208391045770096536, guid: ef368ccf980b641faa41ac79af9436da, type: 3}
+  bulletPrefab: {fileID: 1532605446471792815, guid: 6b3daff48b3348e48bdf085099d01d11, type: 3}
 --- !u!61 &2642639989643058208
 BoxCollider2D:
   m_ObjectHideFlags: 0

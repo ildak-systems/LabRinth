@@ -18,6 +18,7 @@ public class gameOverController : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.E))
         {
             SceneManager.LoadScene("tutorialScene");
+            return;
         }
     }
 }

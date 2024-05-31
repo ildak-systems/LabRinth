@@ -6,10 +6,13 @@ public class levelOneController : MonoBehaviour
     // LevelOneController but script is used in tutorial level
 
     // General Level variables
+
     private bool gotKey1 = false;
     private bool gotKey2 = false;
     private bool gotKey3 = false;
     public static bool levelCleared = false;
+
+    private SpriteRenderer spriteRenderer;
 
     // Level specific game object prefabs
     public GameObject playerObject;

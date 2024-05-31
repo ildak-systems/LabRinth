@@ -19,6 +19,7 @@ public class proceedLevel2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         // play sound and black out the sprite
         if (!levelClearedSignal)
         {
@@ -35,8 +36,7 @@ public class proceedLevel2 : MonoBehaviour
             if (levelClearedSignal && isTouching)
             {
                 SceneManager.LoadScene("levelOneScene");
-                 // or any other current scene
-                // play stair noises? 
+                levelOneController.levelCleared = false;
                 return;
             }
         }

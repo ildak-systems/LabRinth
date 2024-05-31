@@ -1,4 +1,4 @@
--- Every source file for the project can be accessed by Assets/ Scripts --
+## Every source file for the project can be accessed by Assets/ Scripts
 
 ## Playtesting Reports:
 

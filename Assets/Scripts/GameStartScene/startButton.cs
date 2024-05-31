@@ -6,25 +6,26 @@ using UnityEngine.SceneManagement;
 
 public class startButton : MonoBehaviour
 {
-    public GameObject backgroundMusic;
     bool gameStart = false;
     public GameObject fadeOut;
     SpriteRenderer spriteRenderer;
     AudioSource audioSource;
-    Color hoverColor = new Color (0.5f, 0.5f, 0.5f, 1.0f);
-    Color origColor;
+
     // Start is called before the first frame update
     void Start()
     {
         fadeOut.SetActive(false);
         spriteRenderer = GetComponent<SpriteRenderer>();
-        audioSource = backgroundMusic.GetComponent<AudioSource>();
-        origColor = spriteRenderer.color;
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {   
+        if (Input.GetKeyUp(KeyCode.E))
+        {
+            gameStart = true;
+        }
         // click
         if (gameStart)
         {
@@ -41,20 +42,5 @@ public class startButton : MonoBehaviour
             }
             
         }
-    }
-
-    // hover button effect
-    void OnMouseOver()
-    {
-        spriteRenderer.color = hoverColor;
-        if (Input.GetMouseButtonDown(0))
-        {
-            gameStart = true;
-        }
-    }
-
-    void OnMouseExit()
-    {
-        spriteRenderer.color = origColor;
     }
 }

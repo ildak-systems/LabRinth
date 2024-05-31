@@ -47,8 +47,8 @@ public class levelTwoController : MonoBehaviour
         //player = Instantiate(playerPrefab, new Vector3(-7.486219f, -5.760704f, -0.2f), Quaternion.identity);
 
         key1 = Instantiate(keyPrefab, new UnityEngine.Vector3(-4.67901f, -6.870049f, -0.423f), UnityEngine.Quaternion.identity);
-        key2 = Instantiate(keyPrefab, new UnityEngine.Vector3(8.373f ,-3.636769f ,-0.423f), UnityEngine.Quaternion.identity);
-        key3 = Instantiate(keyPrefab, new UnityEngine.Vector3(7.900255f ,-3.636769f, -0.423f), UnityEngine.Quaternion.identity);
+        key2 = Instantiate(keyPrefab, new UnityEngine.Vector3(15.06558f ,-7.80511f ,-0.423f), UnityEngine.Quaternion.identity);
+        key3 = Instantiate(keyPrefab, new UnityEngine.Vector3(5.821167f ,-12.84655f, -0.423f), UnityEngine.Quaternion.identity);
 
         // UI for keys
         trophyUI1 = Instantiate(trophyUIPrefab, new UnityEngine.Vector3((canvasRect.rect.width / 2) - 25, (canvasRect.rect.height / 2) - 25, 0), UnityEngine.Quaternion.identity);
@@ -77,6 +77,25 @@ public class levelTwoController : MonoBehaviour
             gotKey1 = true;
             Debug.Log("got key1");
             spriteRendererTU1.color = Color.white;
+        }
+
+        if (!key2.activeSelf && !gotKey2)
+        {
+            gotKey2 = true;
+            Debug.Log("got key2");
+            spriteRendererTU2.color = Color.white;
+        }
+
+        if (!key3.activeSelf && !gotKey3)
+        {
+            gotKey3 = true;
+            Debug.Log("got key3");
+            spriteRendererTU3.color = Color.white;
+        }
+
+        if (gotKey1 && gotKey2 && gotKey3)
+        {
+            levelCleared = true;
         }
     }
 }

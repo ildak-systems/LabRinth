@@ -1,37 +1,49 @@
 fileFormatVersion: 2
-guid: c987f671ddbad4b5ebfa3b63078f0b03
+guid: c30700afedf14406e97047651f6da508
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4178046375966092550
-    second: 4_0
+      213: -4657384644251534047
+    second: TryAgainMessage_0
   - first:
-      213: 8982099749623107299
-    second: 4_1
+      213: 3049186637046124884
+    second: TryAgainMessage_1
   - first:
-      213: -2214249495721929474
-    second: 4_2
+      213: -7907954891083221574
+    second: TryAgainMessage_2
   - first:
-      213: 7945056504642708236
-    second: 4_3
+      213: -6867157681853273841
+    second: TryAgainMessage_3
   - first:
-      213: -10500422234371694
-    second: 4_4
+      213: -4932672012673928494
+    second: TryAgainMessage_4
   - first:
-      213: -4683111340605770916
-    second: 4_5
+      213: -707311386281564960
+    second: TryAgainMessage_5
   - first:
-      213: -5933289837275991918
-    second: 4_6
+      213: 7660638877569594045
+    second: TryAgainMessage_6
   - first:
-      213: -1055780868267058655
-    second: 4_7
+      213: 3856243249100976058
+    second: TryAgainMessage_7
   - first:
-      213: -8334946893605160405
-    second: 4_8
+      213: -8109398037372223058
+    second: TryAgainMessage_8
   - first:
-      213: 8290443533355553962
-    second: 4_9
+      213: 8965305474870787200
+    second: TryAgainMessage_9
+  - first:
+      213: -7970277837383706556
+    second: TryAgainMessage_10
+  - first:
+      213: 7471780041083107293
+    second: TryAgainMessage_11
+  - first:
+      213: -4055563798604008003
+    second: TryAgainMessage_12
+  - first:
+      213: 3192055440166362904
+    second: TryAgainMessage_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +90,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -140,13 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 4_2
+      name: TryAgainMessage_0
       rect:
         serializedVersion: 2
-        x: 112
-        y: 0
-        width: 16
-        height: 12
+        x: 0
+        y: 24
+        width: 128
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef41863b0d76541e0800000000000000
-      internalID: -2214249495721929474
+      spriteID: 12d37098755ad5fb0800000000000000
+      internalID: -4657384644251534047
       vertices: []
       indices: 
       edges: []
@@ -163,7 +175,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c60b13ad6f5904bb5b76643c3838b7ca
+    spriteID: 81d39c774cf8947f98c4671a9fcf404b
     internalID: 0
     vertices: []
     indices: 
@@ -171,16 +183,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      4_0: -4178046375966092550
-      4_1: 8982099749623107299
-      4_2: -2214249495721929474
-      4_3: 7945056504642708236
-      4_4: -10500422234371694
-      4_5: -4683111340605770916
-      4_6: -5933289837275991918
-      4_7: -1055780868267058655
-      4_8: -8334946893605160405
-      4_9: 8290443533355553962
+      TryAgainMessage_0: -4657384644251534047
+      TryAgainMessage_1: 3049186637046124884
+      TryAgainMessage_10: -7970277837383706556
+      TryAgainMessage_11: 7471780041083107293
+      TryAgainMessage_12: -4055563798604008003
+      TryAgainMessage_13: 3192055440166362904
+      TryAgainMessage_2: -7907954891083221574
+      TryAgainMessage_3: -6867157681853273841
+      TryAgainMessage_4: -4932672012673928494
+      TryAgainMessage_5: -707311386281564960
+      TryAgainMessage_6: 7660638877569594045
+      TryAgainMessage_7: 3856243249100976058
+      TryAgainMessage_8: -8109398037372223058
+      TryAgainMessage_9: 8965305474870787200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

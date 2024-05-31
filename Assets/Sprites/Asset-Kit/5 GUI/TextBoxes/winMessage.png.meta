@@ -1,37 +1,58 @@
 fileFormatVersion: 2
-guid: c987f671ddbad4b5ebfa3b63078f0b03
+guid: 47c937015869e4e79adc8f4ec972c53b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4178046375966092550
-    second: 4_0
+      213: 6407287509305367221
+    second: winMessage_0
   - first:
-      213: 8982099749623107299
-    second: 4_1
+      213: 7672919148907232471
+    second: winMessage_1
   - first:
-      213: -2214249495721929474
-    second: 4_2
+      213: 519316767553259114
+    second: winMessage_2
   - first:
-      213: 7945056504642708236
-    second: 4_3
+      213: 2122465715667291311
+    second: winMessage_3
   - first:
-      213: -10500422234371694
-    second: 4_4
+      213: -4400031582175597291
+    second: winMessage_4
   - first:
-      213: -4683111340605770916
-    second: 4_5
+      213: 4212235134781107469
+    second: winMessage_5
   - first:
-      213: -5933289837275991918
-    second: 4_6
+      213: -3415466548050495535
+    second: winMessage_6
   - first:
-      213: -1055780868267058655
-    second: 4_7
+      213: -1281381132865510225
+    second: winMessage_7
   - first:
-      213: -8334946893605160405
-    second: 4_8
+      213: 9015416943739839823
+    second: winMessage_8
   - first:
-      213: 8290443533355553962
-    second: 4_9
+      213: 3584793299955691390
+    second: winMessage_9
+  - first:
+      213: 7582111251271178658
+    second: winMessage_10
+  - first:
+      213: -5739861930754634434
+    second: winMessage_11
+  - first:
+      213: 385544852112662050
+    second: winMessage_12
+  - first:
+      213: -6579917886312714620
+    second: winMessage_13
+  - first:
+      213: 4839465218336248726
+    second: winMessage_14
+  - first:
+      213: 4828054216275876130
+    second: winMessage_15
+  - first:
+      213: -5584749857321577708
+    second: winMessage_16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +99,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -140,13 +161,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 4_2
+      name: winMessage_0
       rect:
         serializedVersion: 2
-        x: 112
-        y: 0
-        width: 16
-        height: 12
+        x: 0
+        y: 24
+        width: 128
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +175,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef41863b0d76541e0800000000000000
-      internalID: -2214249495721929474
+      spriteID: 5ba91fdda024be850800000000000000
+      internalID: 6407287509305367221
       vertices: []
       indices: 
       edges: []
@@ -163,7 +184,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c60b13ad6f5904bb5b76643c3838b7ca
+    spriteID: bae01c50fc2464b4b817c525f4ffe1e0
     internalID: 0
     vertices: []
     indices: 
@@ -171,16 +192,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      4_0: -4178046375966092550
-      4_1: 8982099749623107299
-      4_2: -2214249495721929474
-      4_3: 7945056504642708236
-      4_4: -10500422234371694
-      4_5: -4683111340605770916
-      4_6: -5933289837275991918
-      4_7: -1055780868267058655
-      4_8: -8334946893605160405
-      4_9: 8290443533355553962
+      winMessage_0: 6407287509305367221
+      winMessage_1: 7672919148907232471
+      winMessage_10: 7582111251271178658
+      winMessage_11: -5739861930754634434
+      winMessage_12: 385544852112662050
+      winMessage_13: -6579917886312714620
+      winMessage_14: 4839465218336248726
+      winMessage_15: 4828054216275876130
+      winMessage_16: -5584749857321577708
+      winMessage_2: 519316767553259114
+      winMessage_3: 2122465715667291311
+      winMessage_4: -4400031582175597291
+      winMessage_5: 4212235134781107469
+      winMessage_6: -3415466548050495535
+      winMessage_7: -1281381132865510225
+      winMessage_8: 9015416943739839823
+      winMessage_9: 3584793299955691390
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

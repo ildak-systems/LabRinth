@@ -1,8 +1,9 @@
-using System;
 using System.Collections;
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class enemyMechanicEasy : MonoBehaviour
+public class mediumEnemyMechanic : MonoBehaviour
 {
     // RayCasting / collider check
     RaycastHit2D[] allHits = new RaycastHit2D[5]; // record collision up to 5
@@ -10,7 +11,7 @@ public class enemyMechanicEasy : MonoBehaviour
     bool isSpriteRight = true;
 
 
-    float flipIntervalSec = 5.0f;
+    float flipIntervalSec = 2.0f;
     public float bulletSpeed = 5f;
     public GameObject player;
   
@@ -112,5 +113,4 @@ public class enemyMechanicEasy : MonoBehaviour
             transform.localScale = scale;
         }
     }
-    }
-
+}

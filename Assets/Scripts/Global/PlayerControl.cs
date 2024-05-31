@@ -9,7 +9,7 @@ public class PlayerControl : MonoBehaviour
     // AD and left/right
     public Vector2 forwardBackInput;
     public Vector2 jumpingInput;
-    public float playerRunSpeed = 2.5f;
+    public float playerRunSpeed = 4f;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
   
